@@ -1,0 +1,58 @@
+
+/*
+Colors
+
+h grün 	#bd1622
+d grün	#0080c8
+d rot	#4c3b47
+beige	#dad5d2
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100%;
+	background: #FFF;
+	-moz-box-shadow:    inset 0 0 100px #dad5d2;
+	-webkit-box-shadow: inset 0 0 100px #dad5d2;
+	box-shadow:         inset 0 0 100px #dad5d2;
+	font-family: 'Vollkorn', serif;
+	font-size: 17px;
+	line-height: 20px;
+	color: #4c3b47;
+}
+
+div {
+	background-color: #FFF;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -250px;
+	width: 300px;
+	height: 200px;
+	background:url(../img/meeresgemuese_logo_300x240.png) no-repeat top center;
+	padding-top: 310px;
+}
+
+p {
+	border-top: 2px dotted #76b72a;
+	padding: 10px 0 5px 5px;
+	margin: 5px 0;
+	color: #4c3b47;
+}
+
+a {
+	color: #084227;
+	text-decoration: none;
+	border: none;
+	font-weight: bold;
+}
+
+a:hover {
+	border-bottom: 1px solid #76b72a;
+}
